@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">  
+  <title>Games App</title>
+</head>
+<body>
+  
+  <h1>Games App</h1>
+
+  <form id="game-form">
+    <div>
+      <label>Titulo</label>
+      <input type="text" name="title">
+    </div>
+      <label>Precio</label>
+      <input type="number" name="price">
+    </div>
+    <div>
+      <label>Imagen (URL)</label>
+      <input type="text" name="imgURL">
+    </div>
+    <div>
+      <label>Descripcion</label>
+      <textarea name="description"></textarea>
+    </div>
+    <button type="submit">Enviar</button>
+  </form>
+  
+  <section class="container">
+    <div id="games">
+
+    </div>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+</html>
